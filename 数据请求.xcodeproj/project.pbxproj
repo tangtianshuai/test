@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F21DE3E1CF54C7600DDDED4 /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F21DE3D1CF54C7600DDDED4 /* PropertyList.plist */; };
+		4F21DE401CF57C6800DDDED4 /* 数据请求.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 4F21DE3F1CF57C6800DDDED4 /* 数据请求.ipa */; };
 		4F6727CF1CE5B1CB0095C9ED /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F6727CD1CE5B1CB0095C9ED /* CoreData.xcdatamodeld */; };
 		4F6727D01CE5B1CB0095C9ED /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F6727CD1CE5B1CB0095C9ED /* CoreData.xcdatamodeld */; };
 		4F6727D11CE5B1CB0095C9ED /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F6727CD1CE5B1CB0095C9ED /* CoreData.xcdatamodeld */; };
@@ -77,6 +78,7 @@
 
 /* Begin PBXFileReference section */
 		4F21DE3D1CF54C7600DDDED4 /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
+		4F21DE3F1CF57C6800DDDED4 /* 数据请求.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = "数据请求.ipa"; sourceTree = "<group>"; };
 		4F6727CE1CE5B1CB0095C9ED /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		4F6727D21CE5B1D80095C9ED /* CoreData 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreData 2.xcdatamodel"; sourceTree = "<group>"; };
 		4F6727D31CE5B1EE0095C9ED /* CoreData 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreData 3.xcdatamodel"; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 				4FEC164F1C980BC3000ACB91 /* Assets.xcassets */,
 				4FEC16511C980BC3000ACB91 /* LaunchScreen.storyboard */,
 				4FEC16541C980BC3000ACB91 /* Info.plist */,
+				4F21DE3F1CF57C6800DDDED4 /* 数据请求.ipa */,
 				4F21DE3D1CF54C7600DDDED4 /* PropertyList.plist */,
 				4FEC16431C980BC3000ACB91 /* Supporting Files */,
 			);
@@ -478,6 +481,7 @@
 				4F21DE3E1CF54C7600DDDED4 /* PropertyList.plist in Resources */,
 				4FEC16501C980BC3000ACB91 /* Assets.xcassets in Resources */,
 				4FEC164E1C980BC3000ACB91 /* Main.storyboard in Resources */,
+				4F21DE401CF57C6800DDDED4 /* 数据请求.ipa in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
