@@ -12,12 +12,13 @@
 #import <AVFoundation/AVFoundation.h>
 #import <AVFoundation/AVAssetImageGenerator.h>
 #import <AVFoundation/AVAsset.h>
-#import "UIImageView+WebCache.h"
-#import "SDWebImageDownloader.h"
+
 @interface ViewController ()
 
 
 @property(nonatomic,weak)UIButton *selectedButton;
+
+@property(nonatomic,weak)IBOutlet UIWebView *web;
 
 @end
 
@@ -25,23 +26,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-}
-
--(void)pressBuuton:(UIButton *)button
-{
-    if (_selectedButton!=button)
-    {
-        _selectedButton.selected=NO;
-        
-        _selectedButton.backgroundColor=[UIColor blueColor];
-        
-        _selectedButton=button;
-        
-        _selectedButton.selected=YES;
-        
-        _selectedButton.backgroundColor=[UIColor cyanColor];
-    }
+    
+   
+    
 }
 
 

@@ -17,49 +17,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PS0-se-23Y">
-                                <rect key="frame" x="225" y="225" width="150" height="150"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="CR6-pL-du2"/>
-                                    <constraint firstAttribute="width" constant="150" id="UN3-EG-vsc"/>
-                                </constraints>
-                                <state key="normal" title="下载"/>
-                            </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ri-FZ-0xZ">
-                                <rect key="frame" x="202" y="43" width="197" height="166"/>
-                                <color key="backgroundColor" red="0.71764705880000002" green="0.89411764709999997" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ju-3D-Iw0">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="2ri-FZ-0xZ" secondAttribute="trailing" id="90b-uc-cQw"/>
-                            <constraint firstItem="2ri-FZ-0xZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="AaT-Jz-5Yw"/>
-                            <constraint firstItem="2ri-FZ-0xZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AcO-M2-YQR"/>
-                            <constraint firstItem="PS0-se-23Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IjB-Sy-YPB"/>
-                            <constraint firstItem="PS0-se-23Y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Olb-0S-hlx"/>
-                            <constraint firstItem="PS0-se-23Y" firstAttribute="top" secondItem="2ri-FZ-0xZ" secondAttribute="bottom" id="Xoq-Vs-Nx1"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2ri-FZ-0xZ" secondAttribute="bottom" id="all-ER-xhA"/>
+                            <constraint firstItem="3ju-3D-Iw0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8mx-Dl-MSK"/>
+                            <constraint firstItem="3ju-3D-Iw0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Fm6-cn-9fb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3ju-3D-Iw0" secondAttribute="bottom" id="Ji9-gp-xp2"/>
+                            <constraint firstAttribute="trailing" secondItem="3ju-3D-Iw0" secondAttribute="trailing" id="S1z-gM-4WW"/>
                         </constraints>
                         <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="3ju-3D-Iw0"/>
+                            </mask>
                             <mask key="constraints">
-                                <exclude reference="90b-uc-cQw"/>
-                                <exclude reference="AaT-Jz-5Yw"/>
-                                <exclude reference="AcO-M2-YQR"/>
-                                <exclude reference="Xoq-Vs-Nx1"/>
-                                <exclude reference="all-ER-xhA"/>
+                                <exclude reference="8mx-Dl-MSK"/>
+                                <exclude reference="Fm6-cn-9fb"/>
+                                <exclude reference="S1z-gM-4WW"/>
+                                <exclude reference="Ji9-gp-xp2"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="3ju-3D-Iw0"/>
+                            </mask>
                             <mask key="constraints">
-                                <include reference="90b-uc-cQw"/>
-                                <include reference="AaT-Jz-5Yw"/>
-                                <include reference="AcO-M2-YQR"/>
-                                <exclude reference="Xoq-Vs-Nx1"/>
-                                <include reference="all-ER-xhA"/>
+                                <include reference="8mx-Dl-MSK"/>
+                                <include reference="Fm6-cn-9fb"/>
+                                <include reference="S1z-gM-4WW"/>
+                                <include reference="Ji9-gp-xp2"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="web" destination="3ju-3D-Iw0" id="eQC-IO-2u4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
