@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F21DE441CF58CD800DDDED4 /* ipa.html in Resources */ = {isa = PBXBuildFile; fileRef = 4F21DE431CF58CD800DDDED4 /* ipa.html */; };
 		4F39B7581E972AB600FAE64C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F39B7571E972AB600FAE64C /* Person.m */; };
+		4F39B75B1E97310600FAE64C /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F39B75A1E97310600FAE64C /* Boy.m */; };
 		4F5A493D1CFFCAED00B308FC /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F5A493C1CFFCAED00B308FC /* PropertyList.plist */; };
 		4F5A493F1CFFCB0200B308FC /* ppseas.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 4F5A493E1CFFCB0200B308FC /* ppseas.ipa */; };
 		4F6727CF1CE5B1CB0095C9ED /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F6727CD1CE5B1CB0095C9ED /* CoreData.xcdatamodeld */; };
@@ -66,6 +67,8 @@
 		4F21DE431CF58CD800DDDED4 /* ipa.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ipa.html; sourceTree = "<group>"; };
 		4F39B7561E972AB600FAE64C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		4F39B7571E972AB600FAE64C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		4F39B7591E97310600FAE64C /* Boy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boy.h; sourceTree = "<group>"; };
+		4F39B75A1E97310600FAE64C /* Boy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boy.m; sourceTree = "<group>"; };
 		4F5A493C1CFFCAED00B308FC /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
 		4F5A493E1CFFCB0200B308FC /* ppseas.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = ppseas.ipa; sourceTree = "<group>"; };
 		4F6727CE1CE5B1CB0095C9ED /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
@@ -197,6 +200,8 @@
 				4FEC16541C980BC3000ACB91 /* Info.plist */,
 				4F5A493E1CFFCB0200B308FC /* ppseas.ipa */,
 				4FEC16431C980BC3000ACB91 /* Supporting Files */,
+				4F39B7591E97310600FAE64C /* Boy.h */,
+				4F39B75A1E97310600FAE64C /* Boy.m */,
 			);
 			path = "数据请求";
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F39B75B1E97310600FAE64C /* Boy.m in Sources */,
 				4FF375091C9820E500672968 /* UIProgressView+AFNetworking.m in Sources */,
 				4FF375021C9820E500672968 /* AFURLSessionManager.m in Sources */,
 				4FF3750B1C9820E500672968 /* UIWebView+AFNetworking.m in Sources */,
