@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4F21DE441CF58CD800DDDED4 /* ipa.html in Resources */ = {isa = PBXBuildFile; fileRef = 4F21DE431CF58CD800DDDED4 /* ipa.html */; };
-		4F39B7581E972AB600FAE64C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F39B7571E972AB600FAE64C /* Person.m */; };
 		4F5A493D1CFFCAED00B308FC /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F5A493C1CFFCAED00B308FC /* PropertyList.plist */; };
 		4F5A493F1CFFCB0200B308FC /* ppseas.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 4F5A493E1CFFCB0200B308FC /* ppseas.ipa */; };
 		4F6727CF1CE5B1CB0095C9ED /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F6727CD1CE5B1CB0095C9ED /* CoreData.xcdatamodeld */; };
@@ -64,8 +63,6 @@
 
 /* Begin PBXFileReference section */
 		4F21DE431CF58CD800DDDED4 /* ipa.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ipa.html; sourceTree = "<group>"; };
-		4F39B7561E972AB600FAE64C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		4F39B7571E972AB600FAE64C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		4F5A493C1CFFCAED00B308FC /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
 		4F5A493E1CFFCB0200B308FC /* ppseas.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = ppseas.ipa; sourceTree = "<group>"; };
 		4F6727CE1CE5B1CB0095C9ED /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
@@ -182,11 +179,9 @@
 			children = (
 				4FF374D91C98206700672968 /* AFN */,
 				4FEC16461C980BC3000ACB91 /* AppDelegate.h */,
-				4F39B7561E972AB600FAE64C /* Person.h */,
-				4F39B7571E972AB600FAE64C /* Person.m */,
 				4FEC16471C980BC3000ACB91 /* AppDelegate.m */,
-				4F21DE431CF58CD800DDDED4 /* ipa.html */,
 				4FEC16491C980BC3000ACB91 /* ViewController.h */,
+				4F21DE431CF58CD800DDDED4 /* ipa.html */,
 				4FEC164A1C980BC3000ACB91 /* ViewController.m */,
 				4F6727CD1CE5B1CB0095C9ED /* CoreData.xcdatamodeld */,
 				4F6727D41CE5B2EB0095C9ED /* Model2toModel3.xcmappingmodel */,
@@ -433,7 +428,6 @@
 				4FF375071C9820E500672968 /* UIButton+AFNetworking.m in Sources */,
 				4FEC16481C980BC3000ACB91 /* AppDelegate.m in Sources */,
 				4FF374FE1C9820E500672968 /* AFNetworkReachabilityManager.m in Sources */,
-				4F39B7581E972AB600FAE64C /* Person.m in Sources */,
 				4FF3750A1C9820E500672968 /* UIRefreshControl+AFNetworking.m in Sources */,
 				4FEC16451C980BC3000ACB91 /* main.m in Sources */,
 				4FF375031C9820E500672968 /* AFAutoPurgingImageCache.m in Sources */,
